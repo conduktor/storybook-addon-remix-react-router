@@ -7,7 +7,7 @@ const config: StorybookConfig = {
   },
 
   stories: ['../src/stories/**/*.stories.@(ts|tsx)'],
-  addons: ['./local-preset.js', '@storybook/addon-docs'],
+  addons: [import.meta.resolve('./local-preset.ts'), '@storybook/addon-docs'],
 };
 
 export default config;

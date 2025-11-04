@@ -4,7 +4,7 @@ on:
   pull_request:
   push:
     branches:
-      - feat/sb9-rr-v6-support-patch
+      - feat/*rr-v6-support-patch
 
 jobs:
   publish:
